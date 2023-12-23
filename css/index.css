@@ -62,6 +62,7 @@
 
 .hero-slide img {
     height: 500px;
+    border-top-right-radius: 100px;
 }
 
 .features-home {
@@ -198,6 +199,7 @@
 .choose-box{
     margin-top: 30px;
     display: flex;
+    align-items: center;
     gap: 30px;
     background-color: #fff;
     padding: 0 5%;
@@ -208,9 +210,14 @@
     color: #005555;
 }
 .c-icons{
-    padding: 25px;
+ width: 50px;
+ height: 50px;
+ padding: 20px;
     border-radius: 70px;
     background-color:#00555524;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -222,6 +229,112 @@
     font-size: 35px;
     margin-bottom: 20px;
 }
-.new-deal{
+.testimony{
+    padding: 0 10%;
+        margin-top: 70px;
+        background-color: #f2f4f6;
+        padding-block: 50px;
+}
+
+.test-heading h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #005555;
+}
+
+.testy{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0 10%;
+    padding-block: 50px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.testy p{
+    font-style: italic;
+}
+.testy h4{
+    margin-top: 30px;
+    color: #005555;
+    font-size: 30px;
+}
+.profile{
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.monials{
+    padding: 50px;
+}
+.contact {
     margin-top: 70px;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 50px;
+}
+
+.contact-form {
+    width: 95%;
+}
+
+.forms input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 5%;
+    border: 2px solid #005555;
+}
+
+.forms input:focus {
+    outline: none;
+}
+
+.forms textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 25px;
+    padding-left: 5%;
+    padding-top: 15px;
+        border: 2px solid #005555;
+   
+}
+
+.forms textarea:focus {
+    outline: none;
+}
+
+.forms button {
+    padding: 15px 45px;
+    background-color: #005555;
+    color: #fff;
+    border: none;
+}
+
+.forms i {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-title h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #005555;
+}
+.contact-title p{
+    margin-bottom: 20px;
 }

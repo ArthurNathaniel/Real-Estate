@@ -14,7 +14,7 @@
     <section>
         <div class="hero-all">
             <div class="hero-text">
-                <h1>AJC Real Estate Dreams Come True</h1>
+                <h1>NAT Real Estate Dreams Come True</h1>
                 <p>
                     Welcome to a world of unparalleled luxury and limitless possibilities – where your dream home awaits. Explore our exquisite collection of premier real estate listings designed to redefine your notion of living. Your journey to extraordinary living begins here.
                 </p>
@@ -295,10 +295,78 @@
         </div>
     </section>
     <section>
-        <div class="new-deal">
-
+        <div class="testimony">
+            <div class="test-heading">
+                <h1>Our Testiomonials</h1>
+            </div>
+            <div class="swiper mySwiper monials">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testy">
+                        <div class="profile"></div>
+                        <p>
+                            Choosing Kofi Mensah for our real estate needs was a game-changer. The personalized service we received from Kofi was beyond our expectations. His dedication and attention to detail made the entire process seamless. We are now proud homeowners, thanks to Kofi Mensah. Highly recommended!
+                        </p>
+                        <h4>
+                            Blessing Dramani Naa
+                        </h4>
+                    </div>
+                    <div class="swiper-slide testy">
+                        <div class="profile"></div>
+                        <p>
+                            Working with Abena Osei was an absolute pleasure. Her unmatched expertise in the real estate industry shone through as she guided us through every step of our journey. From property evaluation to closing the deal, Abena's knowledge and professionalism were invaluable. We couldn't be happier with our new home!
+                        </p>
+                        <h4>Wendy Asante</h4>
+                    </div>
+                    <div class="swiper-slide testy">
+                        <div class="profile"></div>
+                        <p>
+                            We are incredibly grateful to Kwabena Appiah for his commitment to our unique vision. He took the time to understand our needs and turned our dream of the perfect home into a reality. The level of dedication and personalized service we experienced with Kwabena sets him apart. Thank you for making our real estate journey truly exceptional!
+                        </p>
+                        <h4>Nathaniel Arthur</h4>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </section>
+    <section>
+        <div class="contact">
+            <div class="contact-form">
+                <div class="contact-title">
+                    <h1>Get in Touch with Us!</h1>
+                    <p>
+                        Feel free to reach out if you have any questions, suggestions, or just want to say hello. Our team is here and ready to assist you. Contact us for a seamless and enjoyable experience.
+                    </p>
+                </div>
+                <div class="forms-all">
+                    <form id="contactForm">
+                        <div class="forms">
+                            <input type="text" id="name" name="name" placeholder="Enter your name">
+                        </div>
+                        <div class="forms">
+                            <input type="text" id="subject" name="subject" placeholder="Enter your subject">
+                        </div>
+                        <div class="forms">
+                            <input type="text" id="number" name="number" min="0" placeholder="Enter your phone number">
+                        </div>
+                        <div class="forms">
+                            <input type="text" id="email" name="email" placeholder="Enter your email address">
+                        </div>
+                        <div class="forms">
+                            <textarea id="message" name="message" placeholder="Enter your message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="forms">
+                            <button type="button" id="submitButton" onclick="sendEmail()">Send Message <i class="fa-solid fa-location-arrow"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253609.67459239633!2d-1.780919013236496!3d6.69005807262354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c1e64db743ce00d%3A0x7fb7d9ac845c5d60!2sNathstack!5e0!3m2!1sen!2sgh!4v1702736359677!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <?php include 'footer.php' ?>
     <script src="./js/hero.js"></script>
     <script src="./js/featured.js"></script>
 </body>

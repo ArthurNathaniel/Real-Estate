@@ -35,7 +35,7 @@ body {
 .logo {
     height: 90px;
     width: 120px;
-    background-image: url(../images/logo.jpg);
+    background-image: url(../images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,45 @@ body {
 }
 
 
-
+.footer-grid {
+    background-color: #005555;
+    margin-top: 70px;
+    padding: 0 10%;
+    padding-top: 30px;
+}
+ .footer-grid .logo{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.footer-grid h2{
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 40px;
+}
+.last{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #f2f2f2;
+    padding-bottom: 30px;
+}
+.last a{
+    color: #f2f2f2;
+}
+.social-media{
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+.social-media a{
+    color: #f2f2f2;
+    font-size: 30px;
+    margin: auto;
+}
 @media only screen and (max-width: 1110px) {
     body {
         overflow-x: hidden;
@@ -247,10 +285,7 @@ body {
         font-size: 1.9rem;
     }
 
-    .footer-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+
 }
 
 @media only screen and (max-width: 710px) {
